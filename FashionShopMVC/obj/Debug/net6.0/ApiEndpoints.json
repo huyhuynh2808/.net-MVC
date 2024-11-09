@@ -1,0 +1,1219 @@
+[
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.AdminHomeController",
+    "Method": "Index",
+    "RelativePath": "Admin",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.AdminHomeController",
+    "Method": "Index",
+    "RelativePath": "Admin/AdminHome",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.AdminHomeController",
+    "Method": "Index",
+    "RelativePath": "Admin/AdminHome/Index",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.AdminHomeController",
+    "Method": "Member",
+    "RelativePath": "Admin/AdminHome/Member",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.AuthenController",
+    "Method": "Login",
+    "RelativePath": "Admin/Authen/Login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "returnUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.AuthenController",
+    "Method": "Login",
+    "RelativePath": "Admin/Authen/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.AuthenController",
+    "Method": "Logout",
+    "RelativePath": "Admin/Authen/Logout",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.AuthenController",
+    "Method": "Logout",
+    "RelativePath": "Admin/Authen/Logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.CategoriesController",
+    "Method": "Index",
+    "RelativePath": "Admin/Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.CategoriesController",
+    "Method": "Create",
+    "RelativePath": "Admin/Categories/Create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.CategoriesController",
+    "Method": "Create",
+    "RelativePath": "Admin/Categories/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.CategoriesController",
+    "Method": "Delete",
+    "RelativePath": "Admin/Categories/Delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.CategoriesController",
+    "Method": "DeleteConfirmed",
+    "RelativePath": "Admin/Categories/Delete/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.CategoriesController",
+    "Method": "Edit",
+    "RelativePath": "Admin/Categories/Edit/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.CategoriesController",
+    "Method": "Edit",
+    "RelativePath": "Admin/Categories/Edit/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.ContactsController",
+    "Method": "index",
+    "RelativePath": "Admin/Contacts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.ContactsController",
+    "Method": "confirmContact",
+    "RelativePath": "Admin/Contacts/confirmContact/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.ContactsController",
+    "Method": "loadContactsPartial",
+    "RelativePath": "Admin/Contacts/loadContactsPartial",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchByPhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.EmployeeController",
+    "Method": "Index",
+    "RelativePath": "Admin/Employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.EmployeeController",
+    "Method": "Create",
+    "RelativePath": "Admin/Employee/Create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.EmployeeController",
+    "Method": "Create",
+    "RelativePath": "Admin/Employee/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RePassword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.EmployeeController",
+    "Method": "Delete",
+    "RelativePath": "Admin/Employee/Delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.EmployeeController",
+    "Method": "DeleteConfirmed",
+    "RelativePath": "Admin/Employee/Delete/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.EmployeeController",
+    "Method": "Edit",
+    "RelativePath": "Admin/Employee/Edit/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.EmployeeController",
+    "Method": "Edit",
+    "RelativePath": "Admin/Employee/Edit/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.AdminHomeController",
+    "Method": "Index",
+    "RelativePath": "Admin/Index",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.AdminHomeController",
+    "Method": "Member",
+    "RelativePath": "Admin/Member",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.OrdersController",
+    "Method": "index",
+    "RelativePath": "Admin/Orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.OrdersController",
+    "Method": "Details",
+    "RelativePath": "Admin/Orders/Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.OrdersController",
+    "Method": "ExportExcel",
+    "RelativePath": "Admin/Orders/ExportExcel/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.OrdersController",
+    "Method": "GetCountOrder",
+    "RelativePath": "Admin/Orders/GetCountOrder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.OrdersController",
+    "Method": "loadOrdersPartial",
+    "RelativePath": "Admin/Orders/loadOrdersPartial",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "typePayment",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchByID",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchByName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchBySDT",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.OrdersController",
+    "Method": "TotalPayment",
+    "RelativePath": "Admin/Orders/TotalPayment/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.ProductController",
+    "Method": "Index",
+    "RelativePath": "Admin/Product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchByName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.ProductController",
+    "Method": "Create",
+    "RelativePath": "Admin/Product/Create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.ProductController",
+    "Method": "Create",
+    "RelativePath": "Admin/Product/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Quantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Describe",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ListImageFiles",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "PurchasePrice",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Discount",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImagePath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ListImagePaths",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.ProductController",
+    "Method": "DeleteConfirmed",
+    "RelativePath": "Admin/Product/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.ProductController",
+    "Method": "Details",
+    "RelativePath": "Admin/Product/Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.ProductController",
+    "Method": "Edit",
+    "RelativePath": "Admin/Product/Edit/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.ProductController",
+    "Method": "Edit",
+    "RelativePath": "Admin/Product/Edit/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Quantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Describe",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ListImageFiles",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "PurchasePrice",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Discount",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ListImages",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.RoleController",
+    "Method": "Index",
+    "RelativePath": "Admin/Role",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.RoleController",
+    "Method": "Create",
+    "RelativePath": "Admin/Role/Create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.RoleController",
+    "Method": "Create",
+    "RelativePath": "Admin/Role/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.RoleController",
+    "Method": "Delete",
+    "RelativePath": "Admin/Role/Delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.RoleController",
+    "Method": "DeleteConfirmed",
+    "RelativePath": "Admin/Role/Delete/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.RoleController",
+    "Method": "Edit",
+    "RelativePath": "Admin/Role/Edit/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.RoleController",
+    "Method": "Edit",
+    "RelativePath": "Admin/Role/Edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.UserController",
+    "Method": "Index",
+    "RelativePath": "Admin/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.UserController",
+    "Method": "ToggleLockingAccount",
+    "RelativePath": "Admin/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.UserController",
+    "Method": "Create",
+    "RelativePath": "Admin/User/Create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.UserController",
+    "Method": "Create",
+    "RelativePath": "Admin/User/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RePassword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.UserController",
+    "Method": "Delete",
+    "RelativePath": "Admin/User/Delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.UserController",
+    "Method": "DeleteConfirmed",
+    "RelativePath": "Admin/User/Delete/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.UserController",
+    "Method": "Edit",
+    "RelativePath": "Admin/User/Edit/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.UserController",
+    "Method": "Edit",
+    "RelativePath": "Admin/User/Edit/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.VouchersController",
+    "Method": "Index",
+    "RelativePath": "Admin/Vouchers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.VouchersController",
+    "Method": "Delete",
+    "RelativePath": "Admin/Vouchers",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.VouchersController",
+    "Method": "Create",
+    "RelativePath": "Admin/Vouchers/Create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.VouchersController",
+    "Method": "Create",
+    "RelativePath": "Admin/Vouchers/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DiscountCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DiscountAmount",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "DiscountPercentage",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "DiscountValue",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinimumValue",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Quantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Describe",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedBy",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.VouchersController",
+    "Method": "Delete",
+    "RelativePath": "Admin/Vouchers/Delete/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "collection",
+        "Type": "Microsoft.AspNetCore.Http.IFormCollection",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.VouchersController",
+    "Method": "Details",
+    "RelativePath": "Admin/Vouchers/Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.VouchersController",
+    "Method": "Edit",
+    "RelativePath": "Admin/Vouchers/Edit/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Areas.Admin.Controllers.VouchersController",
+    "Method": "Edit",
+    "RelativePath": "Admin/Vouchers/Edit/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "collection",
+        "Type": "Microsoft.AspNetCore.Http.IFormCollection",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopMVC.Controllers.AccountController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "ConfirmEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

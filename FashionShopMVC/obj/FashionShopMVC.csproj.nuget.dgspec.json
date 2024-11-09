@@ -1,0 +1,209 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\c# sgu\\.net sgu\\project git\\FashionShopMVC\\FashionShopMVC\\FashionShopMVC\\FashionShopMVC.csproj": {}
+  },
+  "projects": {
+    "E:\\c# sgu\\.net sgu\\project git\\FashionShopMVC\\FashionShopMVC\\FashionShop.Service\\FashionShop.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\c# sgu\\.net sgu\\project git\\FashionShopMVC\\FashionShopMVC\\FashionShop.Service\\FashionShop.Service.csproj",
+        "projectName": "FashionShop.Service",
+        "projectPath": "E:\\c# sgu\\.net sgu\\project git\\FashionShopMVC\\FashionShopMVC\\FashionShop.Service\\FashionShop.Service.csproj",
+        "packagesPath": "C:\\Users\\hi\\.nuget\\packages\\",
+        "outputPath": "E:\\c# sgu\\.net sgu\\project git\\FashionShopMVC\\FashionShopMVC\\FashionShop.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\c# sgu\\.net sgu\\project git\\FashionShopMVC\\FashionShopMVC\\FashionShopMVC\\FashionShopMVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\c# sgu\\.net sgu\\project git\\FashionShopMVC\\FashionShopMVC\\FashionShopMVC\\FashionShopMVC.csproj",
+        "projectName": "FashionShopMVC",
+        "projectPath": "E:\\c# sgu\\.net sgu\\project git\\FashionShopMVC\\FashionShopMVC\\FashionShopMVC\\FashionShopMVC.csproj",
+        "packagesPath": "C:\\Users\\hi\\.nuget\\packages\\",
+        "outputPath": "E:\\c# sgu\\.net sgu\\project git\\FashionShopMVC\\FashionShopMVC\\FashionShopMVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\c# sgu\\.net sgu\\project git\\FashionShopMVC\\FashionShopMVC\\FashionShop.Service\\FashionShop.Service.csproj": {
+                "projectPath": "E:\\c# sgu\\.net sgu\\project git\\FashionShopMVC\\FashionShopMVC\\FashionShop.Service\\FashionShop.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AspNetCoreHero.ToastNotification": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.4.1, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.35, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.35, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.35, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.35, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.35, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.35, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.35, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.36.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

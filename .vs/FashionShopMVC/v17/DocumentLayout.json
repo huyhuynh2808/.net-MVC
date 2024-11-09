@@ -1,0 +1,67 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\c# sgu\\.net sgu\\project git\\FashionShopMVC\\FashionShopMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1DDB165-FF16-4303-9236-B942A1B74B99}|FashionShopMVC\\FashionShopMVC.csproj|e:\\c# sgu\\.net sgu\\project git\\fashionshopmvc\\fashionshopmvc\\fashionshopmvc\\areas\\admin\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1DDB165-FF16-4303-9236-B942A1B74B99}|FashionShopMVC\\FashionShopMVC.csproj|solutionrelative:fashionshopmvc\\areas\\admin\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\c# sgu\\.net sgu\\project git\\FashionShopMVC\\FashionShopMVC\\FashionShopMVC\\Areas\\Admin\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "FashionShopMVC\\Areas\\Admin\\Views\\Product\\Details.cshtml",
+              "ToolTip": "E:\\c# sgu\\.net sgu\\project git\\FashionShopMVC\\FashionShopMVC\\FashionShopMVC\\Areas\\Admin\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "FashionShopMVC\\Areas\\Admin\\Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T05:21:17.018Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 100,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
